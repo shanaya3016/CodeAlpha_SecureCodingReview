@@ -1,0 +1,17 @@
+ID   Finding                                    Insecure app   Secure app  
+----------------------------------------------------------------------------
+F1   SQL Injection                              EXPLOITED      BLOCKED     
+F2   OS Command Injection                       EXPLOITED      BLOCKED     
+F3   Insecure Deserialization (pickle cookie)   EXPLOITED      BLOCKED     
+F4   Server-Side Template Injection             EXPLOITED      BLOCKED     
+F5   Cross-Site Scripting (XSS)                 EXPLOITED      BLOCKED     
+F6   Path Traversal                             EXPLOITED      BLOCKED     
+F7   IDOR / Broken Access Control               EXPLOITED      BLOCKED     
+F8   Hardcoded Secrets                          EXPLOITED      BLOCKED     
+F9   Weak Password Hashing (MD5)                EXPLOITED      BLOCKED     
+F10  Debug Mode Enabled                         EXPLOITED      BLOCKED     
+F11  Missing CSRF Protection                    EXPLOITED      BLOCKED     
+F12  No Brute-Force Protection                  EXPLOITED      BLOCKED     
+F13  Missing Security Headers / Cookie Flags    EXPLOITED      BLOCKED     
+----------------------------------------------------------------------------
+Exploited in insecure app: 13/13 | Still vulnerable in secure app: 0/13
