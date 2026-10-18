@@ -42,4 +42,4 @@ python verify_findings.py       # 13/13 exploited -> 0/13 after fixes
 | Bandit issues | 13 (5 High, 4 Medium, 4 Low) | 1 (Low, accepted risk) |
 | Working exploits | 13 / 13 | 0 / 13 |
 
-Author: [Noor ul Aien]
+Author: Noor ul Aien
